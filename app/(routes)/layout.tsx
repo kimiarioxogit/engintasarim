@@ -7,10 +7,10 @@ interface RoutesLayoutProps {
 
 const RotuesLayout = ({children}:RoutesLayoutProps) => {
   return (
-    <div className='min-h-screen flex flex-col'>
-        <header className='text-black'>
+    <div className='min-h-screen flex flex-col bg-white'>
+        <header className=''>
             <nav className="bg-white">
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto mb-9">
                 <div className="logo flex items-center pt-0.75">
                   <Image
                     aria-hidden
