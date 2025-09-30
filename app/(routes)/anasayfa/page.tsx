@@ -3,7 +3,7 @@ import React from 'react'
 const AnasayfaPage = () => {
   return (
     <div className="pb-43 bg-white text-black">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pb-32">
         <div className="space-y-5">
           <span className="text-6xl/18 text font-bold">Kurumsal B2B Yazılım <br /> ve Web Teknolojileri <br /> Ajansı | İstanbul</span>
           <br />
@@ -27,14 +27,62 @@ const AnasayfaPage = () => {
           <img src="/fotograf.webp" alt="" className='' />
         </div>
       </div>
-        <div className='bg-gray-100'>
+        <div className='bg-gray-100 pt-25'>
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
             <div>
-
+              <span className="text-6xl/18 text font-bold">Çözümlerimiz</span>
             </div>
             <div>
-   
+              <button className="cursor-pointer group relative z-0 h-15 w-66 overflow-hidden text-base/11.5 overflow-x-hidden rounded-4xl bg-gray-100 border-2 border-black px-8 py-2 text-black text-m font-semibold">
+                  <span className="relative z-10 group-hover:text-white transition-colors duration-500">Hizmetleri İnceleyin</span>
+                  <span className="absolute inset-0 overflow-hidden rounded-md">
+                  <span className="absolute left-0 aspect-video w-full origin-center translate-x-full rounded-full bg-black transition-all duration-600 group-hover:-translate-x-0 group-hover:scale-150"></span></span>
+              </button>
             </div>
+          </div>
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+            <ul className="flex wrap">
+              <li>
+                <div>
+                  <div>
+                    
+                  </div>
+                  <div>
+
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>
+
+                  </div>
+                  <div>
+
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>
+
+                  </div>
+                  <div>
+
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>
+
+                  </div>
+                  <div>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       <div>

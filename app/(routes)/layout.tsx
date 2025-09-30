@@ -7,7 +7,7 @@ interface RoutesLayoutProps {
 
 const RotuesLayout = ({children}:RoutesLayoutProps) => {
   return (
-    <div className='min-h-screen flex flex-col bg-white'>
+    <div className='min-h-screen  bg-white'>
         <header className=''>
             <nav className="bg-white">
               <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto mb-9">
@@ -136,8 +136,20 @@ const RotuesLayout = ({children}:RoutesLayoutProps) => {
                         </li>
                     </ul>
                 </div>
+                <div className="flex flex-wrap justify-between mb-9 border-t-2 w-312 border-black">
+                       <div className="max-w-screen-xl flex flex-wrap mb-9">
+                          Engin Tasarım ve Elektronik San. Tic. Ltd. Şti. © 2025
+                       </div>
+                      <div className='max-w-screen-xl flex flex-wrap mb-9'>
+                          <div>
+                            Kişisel Verilerin Korunması
+                          </div>
+                          <div>
+                            Gizlilik Bildirimi
+                          </div>
+                      </div>                         
+                    </div>
             </div>
-      
             </div>
         </footer>
     </div>
